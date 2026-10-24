@@ -190,11 +190,7 @@ button:active {
   line-height: 1.7;
 }
 
-footer {
-  margin-top: 22px;
-  color: #7789b0;
-  font-size: 13px;
-}
+
 
 @media (max-width: 600px) {
   body {
