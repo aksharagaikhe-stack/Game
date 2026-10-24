@@ -358,7 +358,7 @@ function gameLoop(timestamp) {
 
 function startGame() {
   score = 0;
-  lives = 5;
+  lives = 3;
   bullets = [];
   enemies = [];
   particles = [];
