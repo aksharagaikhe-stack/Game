@@ -14,7 +14,7 @@ let bullets = [];
 let enemies = [];
 let particles = [];
 let score = 0;
-let lives = 5;
+let lives = 3;
 let best = Number(localStorage.getItem("spaceBest")) || 0;
 
 let running = false;
@@ -358,7 +358,7 @@ function gameLoop(timestamp) {
 
 function startGame() {
   score = 0;
-  lives = 3;
+  lives = 5;
   bullets = [];
   enemies = [];
   particles = [];
